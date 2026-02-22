@@ -1,0 +1,44 @@
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #222831;
+    color: #FFEAD3;
+    border: 0;
+    padding:0;
+}
+.first_bar{
+    background-color: #393E46;
+    margin: 0;
+    border: 5px;
+    padding: 10px;
+    border-radius: 13px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-right: 5px;
+
+
+}
+.first_bar .top_name{
+
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+    
+}
+.first_bar .right_elements{
+    display: flex;
+    color: #EDEDCE;
+    font-size:large;
+    font-weight: 200;
+    gap: 1.5rem;            /* space between each item */
+    margin-right: 40px;
+}
+
+.first_bar .right_elements p {
+    margin: 0; /* reset default paragraph spacing */
+    cursor: pointer;        /* optional for nav items */
+}
