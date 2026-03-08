@@ -66,3 +66,39 @@ a:active {
     padding:10px;
     border: 4px solid #DDE6ED;
 }
+.background .b{
+    text-decoration: underline;
+    font-style: italic;
+}
+.Hobbies{
+    background-color: #526D82;
+    border-color: #DDE6ED;
+    border-radius: 20px;
+    display: flex;
+    font-size: 23px;
+    flex-direction: column;
+    margin: 50px;
+    width: 420px;
+    padding:10px;
+    border: 4px solid #DDE6ED;
+}
+.Hobbies .h{
+    text-decoration: underline;
+    font-style: italic;
+}
+.about_content{
+    display: flex;
+    justify-content: center;
+}
+.ncc{
+    background-color: #526D82;
+    border-color: #DDE6ED;
+    border-radius: 20px;
+    display: flex;
+    font-size: 23px;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 760px;
+    padding:10px;
+    border: 4px solid #DDE6ED;
+}
