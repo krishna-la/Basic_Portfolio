@@ -105,3 +105,6 @@ a:active {
     outline: none;            /* again, no focus/active outline */
     box-shadow: none;
 }
+a:hover, a:focus {
+  color: orange;
+}

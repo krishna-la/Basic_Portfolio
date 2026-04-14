@@ -1,3 +1,4 @@
+
 body{
     font-family: "Roboto", sans-serif;
     background-color: #222831;
@@ -31,13 +32,41 @@ body{
 .first_bar .right_elements{
     display: flex;
     color: #EDEDCE;
-    cursor:pointer;
     font-size:large;
     font-weight: 200;
     gap: 1.5rem;            /* space between each item */
     margin-right: 40px;
-    align-items: center;
 }
+
+.first_bar .right_elements p {
+    margin: 0; /* reset default paragraph spacing */
+    cursor: pointer;        /* optional for nav items */
+}
+.main_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; /* for absolute positioning of pic */
+}
+.main_body .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -500px; /* shift the block to the right */
+    font-size: 80px;
+}
+.main_body .text p{
+    margin: 0;
+}
+
+.main_body .text .name-row{
+    display: flex;
+    gap: 23px;
+}
+
+
 a {
     color: inherit;           /* use the surrounding text colour */
     text-decoration: none;    /* remove underline if you don’t want it */
@@ -54,63 +83,59 @@ a:active {
     outline: none;            /* again, no focus/active outline */
     box-shadow: none;
 }
-
-.background{
-    background-color: #526D82;
-    border-color: #DDE6ED;
-    border-radius: 20px;
+.main_body .text .Designation{
+    font-size: 30px;
     display: flex;
-    font-size: 23px;
     flex-direction: column;
-    margin: 50px;
-    text-align: center;
-    width: 420px;
-    padding:10px;
-    border: 4px solid #DDE6ED;
-}
-.background .b{
-    text-decoration: underline;
-    font-style: italic;
-}
-.Hobbies{
-    background-color: #526D82;
-    border-color: #DDE6ED;
-    border-radius: 20px;
-    display: flex;
-    font-size: 23px;
-    text-align: center;
-    flex-direction: column;
-    margin: 50px;
-    width: 420px;
-    padding:10px;
-    border: 4px solid #DDE6ED;
-}
-.Hobbies .h{
-    text-decoration: underline;
-    font-style: italic;
-}
-.about_content{
-    display: flex;
     justify-content: center;
+    margin-top: 40px;
+    margin-left: 10px;
+    
 }
 a:hover, a:focus {
   color: orange;
 }
 
-.ncc{
-    background-color: #526D82;
-    border-color: #DDE6ED;
-    border-radius: 20px;
-    display: flex;
-    font-size: 23px;
-    flex-direction: column;
-    margin: 20px auto;
-    width: 760px;
-    padding:10px;
-    border: 4px solid #DDE6ED;
-    text-align: center;
+
+.right {
+    position: absolute;
+    right: 120px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 50px;
 }
-.background .Link1{
-    text-decoration: underline;
-    font-style: italic;
+
+.contact_box {
+    background-color: #526D82;
+    border: 3px solid #DDE6ED;
+    border-radius: 20px;
+    padding: 35px;
+    width: 350px;
+}
+
+.contact_heading {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.contact_item {
+    background-color: #222831;
+    border: 2px solid #DDE6ED;
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.label {
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.contact_item a {
+    font-size: 15px;
+}
+
+/* REMOVE THIS if still present */
+a:hover {
+    color: orangered;
 }

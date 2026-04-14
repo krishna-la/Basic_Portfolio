@@ -21,6 +21,10 @@ body{
 
 
 }
+a:hover, a:focus {
+  color: orange;
+}
+
 .first_bar .top_name{
 
     font-size: 30px;

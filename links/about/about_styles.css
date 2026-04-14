@@ -19,6 +19,9 @@ body{
     margin-top: 0;
     margin-right: 5px;
 
+a:hover, a:focus {
+  color: orange;
+}
 
 }
 .first_bar .top_name{
