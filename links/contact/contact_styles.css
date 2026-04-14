@@ -136,6 +136,6 @@ a:hover, a:focus {
 }
 
 /* REMOVE THIS if still present */
-a:hover {
-    color: orangered;
+a:hover, a:focus {
+  color: orange;
 }
